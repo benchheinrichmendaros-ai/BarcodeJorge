@@ -712,6 +712,33 @@ button:focus-visible {
   overflow: hidden;
 }
 
+/* Order policy page */
+
+.policy-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.policy-list li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.policy-list li:last-child {
+  margin-bottom: 0;
+}
+
+.policy-notice {
+  margin-top: 22px;
+  padding: 14px 16px;
+  background-color: #fdf3e3;
+  border: 1px solid var(--gold-500);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--ink-900);
+}
+
 /* 12. FOOTER --------------------------------------------------------------*/
 
 .site-footer {
