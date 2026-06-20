@@ -26,7 +26,7 @@ const SITE_DATA = {
      -------------------------------------------------------------------- */
   links: {
     // Paste your Peddlr store link between the quotes below.
-    peddlr: "",
+    peddlr: "https://v5.peddlr.io/store/barco-de-jorge-1590952",
 
     // Paste your Messenger link (e.g. https://m.me/yourpagename) below.
     messenger: "",
