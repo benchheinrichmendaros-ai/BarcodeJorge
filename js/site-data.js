@@ -46,7 +46,7 @@ const SITE_DATA = {
       "A family-owned grill house serving up smoky grills, our famous fried chicken, golden fries, and ice-cold drinks. Good food, good company, every single day.",
 
     address: "Sangat, San Fernando, Cebu, 6018, Philippines",
-    phone: "0977 821 034",
+    phone: "+63 977 782 1034",
 
     // Add your email between the quotes when you have one.
     email: "",
