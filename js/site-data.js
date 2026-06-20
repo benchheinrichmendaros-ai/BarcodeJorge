@@ -96,13 +96,13 @@ const SITE_DATA = {
     {
       title: "The Main Event",
       blurb: "Our famous fried chicken — the dish people come back for.",
-      image: "images/placeholder.svg",
+      image: "images/ChickenHome.jpg",
       link: "menu.html#chicken",
     },
     {
       title: "Drinks & Refreshers",
       blurb: "Cold sodas and milk tea to wash it all down.",
-      image: "images/placeholder.svg",
+      image: "images/DrinksHome.jpg",
       link: "menu.html#drinks",
     },
   ],
