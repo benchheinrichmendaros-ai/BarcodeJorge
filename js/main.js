@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
   buildGalleryGrid("[data-gallery-full]", Infinity);
   buildMenu();
   buildMenuJumpNav();
+  buildOrderPolicy();
   wireUpMapEmbed();
   setFooterYear();
 });
@@ -56,7 +57,7 @@ function buildHeader() {
           '<li><a href="location.html">Location / Contact</a></li>' +
         "</ul>" +
         '<div class="nav-ctas">' +
-          '<a class="btn btn--gold" data-link="peddlr">Order Online</a>' +
+          '<a class="btn btn--gold" href="order-policy.html">Order Online</a>' +
           '<a class="btn btn--outline" data-link="messenger">Chat Us</a>' +
         "</div>" +
       "</nav>" +
@@ -102,7 +103,7 @@ function buildFooter() {
         '<div class="footer-col">' +
           '<h4>Order &amp; Chat</h4>' +
           '<div class="cta-row" style="flex-direction:column;">' +
-            '<a class="btn btn--gold btn--block" data-link="peddlr">Order Online</a>' +
+            '<a class="btn btn--gold btn--block" href="order-policy.html">Order Online</a>' +
             '<a class="btn btn--outline btn--block" data-link="messenger">Chat Us</a>' +
           "</div>" +
         "</div>" +
@@ -179,8 +180,10 @@ function wireUpLinks() {
       const url = linkMap[key];
       if (url && url.trim() !== "") {
         el.setAttribute("href", url);
-        el.target = "_blank";
-        el.rel = "noopener noreferrer";
+        if (!el.hasAttribute("data-same-tab")) {
+          el.target = "_blank";
+          el.rel = "noopener noreferrer";
+        }
       } else {
         el.setAttribute("href", "#");
         el.classList.add("is-pending");
@@ -373,6 +376,45 @@ function buildMenuJumpNav() {
     link.textContent = category.name;
     nav.appendChild(link);
   });
+}
+
+/* ---------- order policy page --------------------------------------- */
+
+function buildOrderPolicy() {
+  const container = document.querySelector("[data-order-policy]");
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const heading = document.createElement("h3");
+  heading.textContent = SITE_DATA.orderPolicy.heading;
+
+  const intro = document.createElement("p");
+  intro.textContent = SITE_DATA.orderPolicy.intro;
+  intro.style.marginBottom = "16px";
+
+  const list = document.createElement("ul");
+  list.className = "policy-list";
+  SITE_DATA.orderPolicy.points.forEach((point) => {
+    const li = document.createElement("li");
+    li.textContent = point;
+    list.appendChild(li);
+  });
+
+  container.append(heading, intro, list);
+
+  // Only shows if temporaryNotice still exists in site-data.js — delete
+  // it there later and this box disappears automatically.
+  if (SITE_DATA.orderPolicy.temporaryNotice) {
+    const notice = document.createElement("div");
+    notice.className = "policy-notice";
+
+    const label = document.createElement("strong");
+    label.textContent = "Note: ";
+
+    notice.append(label, document.createTextNode(SITE_DATA.orderPolicy.temporaryNotice));
+    container.appendChild(notice);
+  }
 }
 
 /* ---------- menu page ---------------------------------------------------*/
