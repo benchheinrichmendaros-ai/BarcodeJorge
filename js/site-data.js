@@ -264,7 +264,7 @@ const SITE_DATA = {
       "Please make sure you're able to claim your order on time before you check out.",
     ],
     temporaryNotice:
-      "Some items come in different flavors, but Peddlr currently only lists the base product — there's no flavor option yet. Please hold off on ordering items where you need a specific flavor until this is added; we can't guarantee which flavor you'll receive. But if you want to order items needing flavor selection reaching us on Facebook messenger is recommend.",
+      "Some items come in different flavors, but Peddlr currently only lists the base product — there's no flavor option yet. Please hold off on ordering items where you need a specific flavor until this is added; we can't guarantee which flavor you'll receive. But if you want to order items needing flavor selection reaching us on Facebook messenger is recommended.",
   },
   gallery: [
     { image: "images/placeholder.svg", caption: "Fresh off the grill" },
