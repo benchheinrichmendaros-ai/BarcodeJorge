@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pickup Policy — Barco de Jorge</title>
+  <meta name="robots" content="noindex" />
+  <meta
+    name="description"
+    content="Please review our pickup policy before placing an order through Peddlr."
+  />
+  <link rel="icon" href="images/logo.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-banner bokeh-bg">
+      <div class="container">
+        <h1>Before You Order</h1>
+        <p>Please read and agree to our pickup policy to continue.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container" style="max-width: 700px;">
+        <!--
+          This box is generated from js/site-data.js — find "orderPolicy"
+          to edit the wording, the 24-hour window, or remove the
+          temporary flavor notice once it's no longer needed.
+        -->
+        <div class="contact-card" data-order-policy></div>
+
+        <div class="cta-row" style="justify-content: center; margin-top: 28px;">
+          <a class="btn btn--outline-dark" href="index.html">Disagree — Go Back</a>
+          <a class="btn btn--gold" data-link="peddlr" data-same-tab>Agree — Continue to Peddlr</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer bokeh-bg" data-site-footer></footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
