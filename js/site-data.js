@@ -58,13 +58,13 @@ const SITE_DATA = {
     // Hours: same time every day. If a day ever changes, just edit
     // that one line — each day is listed separately on purpose.
     hours: [
-      { day: "Monday", time: "11:00 AM – 10:00 PM" },
-      { day: "Tuesday", time: "11:00 AM – 10:00 PM" },
-      { day: "Wednesday", time: "11:00 AM – 10:00 PM" },
-      { day: "Thursday", time: "11:00 AM – 10:00 PM" },
-      { day: "Friday", time: "11:00 AM – 10:00 PM" },
-      { day: "Saturday", time: "11:00 AM – 10:00 PM" },
-      { day: "Sunday", time: "11:00 AM – 10:00 PM" },
+      { day: "Monday", time: "11:30 AM – 9:00 PM" },
+      { day: "Tuesday", time: "11:30 AM – 9:00 PM" },
+      { day: "Wednesday", time: "11:30 AM – 9:00 PM" },
+      { day: "Thursday", time: "11:30 AM – 9:00 PM" },
+      { day: "Friday", time: "11:30 AM – 9:00 PM" },
+      { day: "Saturday", time: "11:30 AM – 10:00 PM" },
+      { day: "Sunday", time: "11:30 AM – 10:00 PM" },
     ],
   },
 
