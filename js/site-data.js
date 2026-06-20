@@ -90,7 +90,7 @@ const SITE_DATA = {
     {
       title: "Off the Grill",
       blurb: "Smoky barbecue and grilled favorites, cooked fresh to order.",
-      image: "GrillHome.jpg",
+      image: "images/GrillHome.jpg",
       link: "menu.html#grills",
     },
     {
