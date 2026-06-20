@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barco de Jorge — Tara na sa Barco de Jorge</title>
+  <meta
+    name="description"
+    content="Barco de Jorge is a family-owned grill house in Sangat, San Fernando, Cebu — serving grills, fried chicken, fries, and drinks. Order online or chat us today."
+  />
+  <link rel="icon" href="images/logo.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <!-- Header is built by js/main.js — edit nav links in that one file -->
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero bokeh-bg">
+      <div class="container">
+        <div class="hero-text">
+          <span class="hero-eyebrow" data-hero-eyebrow></span>
+          <h1 class="hero-heading" data-hero-heading></h1>
+          <p class="hero-subheading" data-hero-subheading></p>
+          <div class="cta-row">
+            <a class="btn btn--gold" data-link="peddlr">Order Online</a>
+            <a class="btn btn--outline" data-link="messenger">Chat Us</a>
+          </div>
+        </div>
+        <div class="hero-image" data-hero-image></div>
+      </div>
+    </section>
+
+    <!-- ============ INTRO ============ -->
+    <section class="section">
+      <div class="container">
+        <span class="section-kicker">Our Story</span>
+        <h2 class="section-heading">A family table since day one</h2>
+        <p class="section-intro" data-field="shortDescription"></p>
+        <a class="btn btn--outline-dark" href="menu.html">View Full Menu</a>
+      </div>
+    </section>
+
+    <!-- ============ WHAT WE'RE KNOWN FOR ============ -->
+    <section class="section section--tight">
+      <div class="container">
+        <span class="section-kicker">What We're Known For</span>
+        <h2 class="section-heading">Pulled straight off the grill</h2>
+        <p class="section-intro">
+          A quick look at the dishes people keep coming back for.
+        </p>
+        <div class="highlights-grid" data-highlights></div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY PREVIEW + FINAL CTA ============ -->
+    <section class="section bokeh-bg">
+      <div class="container">
+        <span class="section-kicker">A Peek Inside</span>
+        <h2 class="section-heading">See what's cooking</h2>
+        <p class="section-intro">
+          Real photos coming soon — for now, here's where they'll live.
+        </p>
+
+        <div class="gallery-grid" data-gallery-preview></div>
+
+        <div class="gallery-cta">
+          <a class="btn btn--outline" href="gallery.html">View Full Gallery</a>
+        </div>
+      </div>
+
+      <div class="container" style="margin-top: 48px; border-top: 1px solid rgba(255,255,255,0.12); padding-top: 40px; text-align: center;">
+        <h2 class="section-heading">Tara na, order na!</h2>
+        <p class="section-intro" style="margin: 0 auto 24px;">
+          Get it delivered through Peddlr, or message us on Facebook to ask about the menu.
+        </p>
+        <div class="cta-row" style="justify-content: center;">
+          <a class="btn btn--gold" data-link="peddlr">Order Online</a>
+          <a class="btn btn--outline" data-link="messenger">Chat Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer is built by js/main.js — edit address/hours in js/site-data.js -->
+  <footer class="site-footer bokeh-bg" data-site-footer></footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

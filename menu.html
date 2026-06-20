@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu — Barco de Jorge</title>
+  <meta
+    name="description"
+    content="See the Barco de Jorge menu: grills, our famous fried chicken, fries, sodas, milk tea, and more."
+  />
+  <link rel="icon" href="images/logo.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-banner bokeh-bg">
+      <div class="container">
+        <h1>Our Menu</h1>
+        <p>Grills, the main event (chicken), fries, drinks, and sides.</p>
+      </div>
+    </section>
+
+    <!-- Quick-jump links to each category, built automatically from
+         js/site-data.js so it always matches the menu below. -->
+    <nav class="menu-jump-nav" aria-label="Menu categories">
+      <div class="container" data-menu-jump></div>
+    </nav>
+
+    <!--
+      The entire menu below is generated from js/site-data.js.
+      To add, remove, or edit a dish: open js/site-data.js and look
+      for the "menu" section — each item has a name, description,
+      price, and image you can change.
+    -->
+    <div class="container" data-menu></div>
+
+    <section class="section" style="padding-top: 8px;">
+      <div class="container" style="text-align: center;">
+        <p class="section-intro" style="margin: 0 auto 16px;">
+          Ready to eat? Order online for delivery, or message us with any
+          questions.
+        </p>
+        <div class="cta-row" style="justify-content: center;">
+          <a class="btn btn--gold" data-link="peddlr">Order Online</a>
+          <a class="btn btn--outline-dark" data-link="messenger">Chat Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer bokeh-bg" data-site-footer></footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

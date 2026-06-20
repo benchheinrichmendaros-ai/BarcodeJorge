@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — Barco de Jorge</title>
+  <meta
+    name="description"
+    content="Photos of Barco de Jorge — our food, our grill, and our dining space in Sangat, San Fernando, Cebu."
+  />
+  <link rel="icon" href="images/logo.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="site-header" data-site-header></header>
+
+  <main id="main">
+    <section class="page-banner bokeh-bg">
+      <div class="container">
+        <h1>Gallery</h1>
+        <p>A look at our food, our grill, and our space.</p>
+      </div>
+    </section>
+
+    <!--
+      This grid is generated from js/site-data.js. To add a photo:
+      open js/site-data.js, find the "gallery" list near the bottom,
+      and add a new { image: "images/yourfile.jpg", caption: "..." }
+      line. To remove a photo, delete its line.
+    -->
+    <section class="section">
+      <div class="container">
+        <div class="gallery-grid" data-gallery-full></div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container" style="text-align: center;">
+        <p class="section-intro" style="margin: 0 auto 16px;">
+          Liked what you saw? Order online for delivery, or message us with
+          any questions.
+        </p>
+        <div class="cta-row" style="justify-content: center;">
+          <a class="btn btn--gold" data-link="peddlr">Order Online</a>
+          <a class="btn btn--outline-dark" data-link="messenger">Chat Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer bokeh-bg" data-site-footer></footer>
+
+  <script src="js/site-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
