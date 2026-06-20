@@ -75,7 +75,7 @@ const SITE_DATA = {
     eyebrow: "Welcome Aboard",
     heading: "Tara na sa Barco de Jorge",
     subheading:
-      "Grills straight off the coals, our famous fried chicken, golden fries, and ice-cold drinks — family-style Filipino comfort food, made to share.",
+      "Grills straight off the coals, our famous fried chicken, golden fries, and ice-cold drinks. Family-style Filipino comfort food, made to share.",
     // Swap this for a real photo of your storefront, grill, or food
     // once you have one, e.g. "images/hero.jpg"
     image: "images/FirstImage.jpg",
@@ -90,7 +90,7 @@ const SITE_DATA = {
     {
       title: "Off the Grill",
       blurb: "Smoky barbecue and grilled favorites, cooked fresh to order.",
-      image: "images/placeholder.svg",
+      image: "GrillHome.jpg",
       link: "menu.html#grills",
     },
     {
