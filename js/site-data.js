@@ -253,6 +253,19 @@ const SITE_DATA = {
      show as a preview on the homepage. Add a new { ... } block to add
      a photo, or delete one to remove it.
      -------------------------------------------------------------------- */
+   orderPolicy: {
+    heading: "Pickup Policy",
+    intro: "Please read before continuing to Peddlr to place your order.",
+    points: [
+      "Barco de Jorge is pickup only — we do not offer delivery.",
+      "Orders not picked up within 24 hours of the confirmed pickup time are considered forfeited.",
+      "Forfeited orders become the property of Barco de Jorge and are not eligible for a refund.",
+      "If you pay online and we do not receive your payment, we will not start preparing your order. Unpaid orders are automatically voided after 30 minutes.",
+      "Please make sure you're able to claim your order on time before you check out.",
+    ],
+    temporaryNotice:
+      "Some items come in different flavors, but Peddlr currently only lists the base product — there's no flavor option yet. Please hold off on ordering items where you need a specific flavor until this is added; we can't guarantee which flavor you'll receive.",
+  },
   gallery: [
     { image: "images/placeholder.svg", caption: "Fresh off the grill" },
     { image: "images/placeholder.svg", caption: "Our famous fried chicken" },
