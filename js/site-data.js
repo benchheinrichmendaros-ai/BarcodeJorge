@@ -269,10 +269,10 @@ const SITE_DATA = {
   gallery: [
     { image: "images/GrillHome.jpg", caption: "Fresh off the grill" },
     { image: "images/ChickenHome.jpg", caption: "Our famous fried chicken" },
-    { image: "images/placeholder.svg", caption: "Family dining area" },
+    { image: "images/FamDining.jpg", caption: "Family dining area" },
     { image: "images/DrinksHome.jpg", caption: "Cold drinks and milk tea" },
     { image: "images/placeholder.svg", caption: "Storefront" },
-    { image: "images/placeholder.svg", caption: "Weekend crowd" },
+    { image: "images/Crowd.jpg", caption: "Weekend crowd" },
     { image: "images/placeholder.svg", caption: "Grilled specialties" },
     { image: "images/placeholder.svg", caption: "Behind the grill" },
     { image: "images/placeholder.svg", caption: "Add a caption here" },
