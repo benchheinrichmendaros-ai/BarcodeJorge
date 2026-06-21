@@ -32,7 +32,7 @@ const SITE_DATA = {
     messenger: "https://m.me/barcodejorge",
 
     // Optional. Leave blank ("") to hide these icons in the footer.
-    facebook: "",
+    facebook: "https://www.facebook.com/share/18vbUUAyPf/",
     instagram: "",
   },
 
