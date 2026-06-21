@@ -29,7 +29,7 @@ const SITE_DATA = {
     peddlr: "https://v5.peddlr.io/store/barco-de-jorge-1590952",
 
     // Paste your Messenger link (e.g. https://m.me/yourpagename) below.
-    messenger: "",
+    messenger: "https://m.me/barcodejorge",
 
     // Optional. Leave blank ("") to hide these icons in the footer.
     facebook: "",
