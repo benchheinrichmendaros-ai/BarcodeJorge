@@ -267,10 +267,10 @@ const SITE_DATA = {
       "Some items come in different flavors, but Peddlr currently only lists the base product — there's no flavor option yet. Please hold off on ordering items where you need a specific flavor until this is added; we can't guarantee which flavor you'll receive. But if you want to order items needing flavor selection reaching us on Facebook messenger is recommended.",
   },
   gallery: [
-    { image: "images/placeholder.svg", caption: "Fresh off the grill" },
-    { image: "images/placeholder.svg", caption: "Our famous fried chicken" },
+    { image: "images/GrillHome.jpg", caption: "Fresh off the grill" },
+    { image: "images/ChickenHome.jpg", caption: "Our famous fried chicken" },
     { image: "images/placeholder.svg", caption: "Family dining area" },
-    { image: "images/placeholder.svg", caption: "Cold drinks and milk tea" },
+    { image: "images/Drinks.jpg", caption: "Cold drinks and milk tea" },
     { image: "images/placeholder.svg", caption: "Storefront" },
     { image: "images/placeholder.svg", caption: "Weekend crowd" },
     { image: "images/placeholder.svg", caption: "Grilled specialties" },
