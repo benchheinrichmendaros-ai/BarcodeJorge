@@ -270,7 +270,7 @@ const SITE_DATA = {
     { image: "images/GrillHome.jpg", caption: "Fresh off the grill" },
     { image: "images/ChickenHome.jpg", caption: "Our famous fried chicken" },
     { image: "images/placeholder.svg", caption: "Family dining area" },
-    { image: "images/Drinks.jpg", caption: "Cold drinks and milk tea" },
+    { image: "images/DrinksHome.jpg", caption: "Cold drinks and milk tea" },
     { image: "images/placeholder.svg", caption: "Storefront" },
     { image: "images/placeholder.svg", caption: "Weekend crowd" },
     { image: "images/placeholder.svg", caption: "Grilled specialties" },
